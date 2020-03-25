@@ -51,6 +51,10 @@ In this step, we eliminate further unnecessary data by "Max Pooling".
 
 <img src = 'Screen4.png' width='600'>
 
+In this step a (nxn) Feature Map is flattened into a (mx1) matrix where m = nxn.
+
+### Step 4: Full Connection
+
 
 
 ### References
