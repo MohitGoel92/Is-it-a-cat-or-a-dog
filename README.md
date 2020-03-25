@@ -57,7 +57,7 @@ In this step a (nxn) Feature Map is flattened into a (mx1) matrix where m = nxn.
 
 In this step, we've added a whole Artificial Neural Network to our Convolution Neural Network. This is illustrated by the diagram below.
 
-<img src = 'Screen5.png' width='600'>
+<img src = 'Screen5.png' width='700'>
 
 
 
