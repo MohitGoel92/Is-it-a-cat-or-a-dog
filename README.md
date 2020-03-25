@@ -88,3 +88,5 @@ Online latex editor: https://www.codecogs.com/latex/eqneditor.php
 ReLu Graph: https://en.wikipedia.org/wiki/Rectifier_(neural_networks)#/media/File:Rectifier_and_softplus_functions.svg
 
 ANN digram: https://www.udemy.com/course/machinelearning/
+
+Dataset: https://www.kaggle.com/chetankv/dogs-cats-images
