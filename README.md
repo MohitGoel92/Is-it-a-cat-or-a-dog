@@ -38,6 +38,16 @@ ReLu stands for "Rectified Linear Units", which is the Rectifier Activation func
 
 <img src = 'Screen3.png' width='600'>
 
+In this step, we eliminate further unnecessary data by "Max Pooling". 
+
+**Max Pooling summary**
+
+- We place a 2x2 box on top of the Feature Map and select the largest number in the 2x2 box, and enter it into the "Pooled Feature Map".
+- This gets rid of 75% of the information that is not feature data, therefore no longer requiring this data.
+- We now introduce spatial invariance: As we're taking the maximum of the values, we're taking into consideration any distortions. For example, in the Feature Map if the distinctive feature we're looking out for is a position different to the expected Feature Map, the maximum number will be in the same position in the Pooled Feature Map. Note: Any vaguely similar features will not score high enough.
+- We have reduced the number the number of parameters that will go into the final layers of the Neural Network. This prevents overfitting of current information as we should only be feature based.
+
+
 ### References
 
 Online latex editor: https://www.codecogs.com/latex/eqneditor.php
