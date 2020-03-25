@@ -59,10 +59,32 @@ In this step, we've added a whole Artificial Neural Network to our Convolution N
 
 <img src = 'Screen5.png' width='700'>
 
+After the flattening step, the Pooled Feature Map has become the input layer of the ANN. The ouput layer produces probabilities of what class/category the picture belongs to. Unlike ANN, CNN have fully connected hidden layers. This means each node is connect to each input value.
 
+### Softmax and Cross-Entropy
+
+The softmax function ensures that all output values have a probability between 0 and 1, and that they all add to become 1. 
+
+**Classification Error**
+
+This is the number of falsely categorised pictures. For accuracy calculations, we have Mean Square Error and Cross-Entropy. An advantage of using Cross-Entropy is that it contains a logarithmic term, therefore helping the Neural Network assess small errors. This is due to small differences being magnified by the logarithmic term, deeming it a significant improvement. The Neural Network with therefore arrive at the optimal state much quicker using Cross-Entropy. As a rule of thumb, Cross-Entropy is better suited towards classification and Mean Square Error is better suited towards regression. 
+
+- **Softmax Function**
+
+This ensures that the output values add up to 1.
+
+<img src = 'Screen6.png' width='600'>
+
+- **Cross-Entropy Function**
+
+A way of calculating the loss function and optimising our network.
+
+<img src = 'Screen7.png' width='600'>
 
 ### References
 
 Online latex editor: https://www.codecogs.com/latex/eqneditor.php
 
 ReLu Graph: https://en.wikipedia.org/wiki/Rectifier_(neural_networks)#/media/File:Rectifier_and_softplus_functions.svg
+
+ANN digram: https://www.udemy.com/course/machinelearning/
