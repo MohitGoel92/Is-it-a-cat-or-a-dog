@@ -30,7 +30,7 @@ In this step, we find features in our image using the "Feature Detector" and put
 
 ### ReLu Layer
 
-ReLu stands for "Rectified Linear Units", which is the Rectifier Activation function. This is an additional step to the convolution step. We apply the Rectifier as we want to increase non-linearity in our image/CNN. This is due to images being highly non-linear as there may be different objects next to each other or in the background. The diagram below shows the ReLu function, in comparison to the softplus function.
+ReLu stands for "Rectified Linear Units", which is the Rectifier Activation function. This is an additional step to the convolution step. We apply the Rectifier as we want to increase non-linearity in our image/CNN. This is due to images being highly non-linear as there may be different objects next to each other or in the background. The diagram below shows the ReLu function: f(x) = max(x,0), in comparison to the softplus function.
 
 <img src = 'Screen2.png' width='700'>
 
