@@ -26,3 +26,9 @@ In this step, we find features in our image using the "Feature Detector" and put
 - We have a perfect match when: 
   - The sum of the Feature Detector = Number in the square (cell) of the Feature Map
 - The Feature Map captures/preserves key features we look out for and discard unnecessary information that does not help us determing the image.
+
+
+
+### References
+
+Online latex editor: https://www.codecogs.com/latex/eqneditor.php
