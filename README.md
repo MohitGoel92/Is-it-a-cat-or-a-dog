@@ -55,6 +55,10 @@ In this step a (nxn) Feature Map is flattened into a (mx1) matrix where m = nxn.
 
 ### Step 4: Full Connection
 
+In this step, we've added a whole Artificial Neural Network to our Convolution Neural Network. This is illustrated by the diagram below.
+
+<img src = 'Screen4.png' width='600'>
+
 
 
 ### References
