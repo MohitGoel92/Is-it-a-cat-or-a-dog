@@ -28,8 +28,14 @@ In this step, we find features in our image using the "Feature Detector" and put
   - The sum of the Feature Detector = Number in the square (cell) of the Feature Map.
 - The Feature Map captures/preserves key features we look out for and discards unnecessary information that does not help us determine the image.
 
+### ReLu Layer
 
+ReLu stands for "Rectified Linear Units", which is the Rectifier Activation function. This is an additional step to the convolution step. We apply the Rectifier as we want to increase non-linearity in our image/CNN. This is due to images being highly non-linear as there may be different objects next to each other or in the background. The diagram below shows the ReLu function, in comparison to the softplus function.
+
+<img src = 'Screen2.png' width='700'>
 
 ### References
 
 Online latex editor: https://www.codecogs.com/latex/eqneditor.php
+
+ReLu Graph: https://en.wikipedia.org/wiki/Rectifier_(neural_networks)#/media/File:Rectifier_and_softplus_functions.svg
