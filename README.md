@@ -34,6 +34,10 @@ ReLu stands for "Rectified Linear Units", which is the Rectifier Activation func
 
 <img src = 'Screen2.png' width='700'>
 
+### Step 2: Max Pooling
+
+<img src = 'Screen3.png' width='600'>
+
 ### References
 
 Online latex editor: https://www.codecogs.com/latex/eqneditor.php
