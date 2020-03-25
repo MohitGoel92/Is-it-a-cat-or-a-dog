@@ -73,13 +73,13 @@ This is the number of falsely categorised pictures. For accuracy calculations, w
 
 This ensures that the output values add up to 1.
 
-<img src = 'Screen6.png' width='600'>
+<img src = 'Screen6.png' width='400'>
 
 - **Cross-Entropy Function**
 
 A way of calculating the loss function and optimising our network.
 
-<img src = 'Screen7.png' width='600'>
+<img src = 'Screen7.png' width='400'>
 
 ### References
 
