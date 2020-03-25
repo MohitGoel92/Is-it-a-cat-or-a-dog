@@ -25,8 +25,8 @@ In this step, we find features in our image using the "Feature Detector" and put
 - When applying the feature detector we lose some information as we have less values in the resulting matrix. However, the purpose of the Feature Detector is to detect certain features or integral parts of the image.
 - The higest number in our Feature Map is when the pattern matches up.
 - We have a perfect match when: 
-  - The sum of the Feature Detector = Number in the square (cell) of the Feature Map
-- The Feature Map captures/preserves key features we look out for and discard unnecessary information that does not help us determing the image.
+  - The sum of the Feature Detector = Number in the square (cell) of the Feature Map.
+- The Feature Map captures/preserves key features we look out for and discards unnecessary information that does not help us determine the image.
 
 
 
