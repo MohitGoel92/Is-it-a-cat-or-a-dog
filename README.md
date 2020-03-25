@@ -14,7 +14,7 @@ Convolution Neural Networks (CNN) are most commonly applied to analysing visual 
 
 In this step, we find features in our image using the "Feature Detector" and put them into a "Feature Map". This relationship is given below.
 
-<img src = 'Screen1.png' width='300'>
+<img src = 'Screen1.png' width='600'>
 
 **Convolution summary**
 
